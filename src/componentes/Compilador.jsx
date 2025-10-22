@@ -104,9 +104,9 @@ Cada paso del proceso representa una parte del ciclo completo de un compilador, 
             Para observar el funcionamiento del compilador de Arduino, se puede utilizar un ejemplo simple: encender y apagar un LED en el pin 13.
 Al compilar el siguiente código en el IDE de Arduino:
 
-            <img src="/Captura desde 2025-10-22 09-30-25.png" alt="Captura 1" />
-          <img src="/Captura desde 2025-10-22 09-31-35.png" alt="Captura 2" />
-          <img src="/Captura desde 2025-10-22 09-31-15.png" alt="Captura 3" />
+              <img src={import.meta.env.BASE_URL + 'Captura desde 2025-10-22 09-18-25.png'} alt="Captura de código" />
+          <img src={import.meta.env.BASE_URL + 'Captura desde 2025-10-22 09-31-35.png'} alt="Captura 2" />
+          <img src={import.meta.env.BASE_URL + 'Captura desde 2025-10-22 09-31-15.png'} alt="Captura 3" />
 el compilador realiza automáticamente la conversión del código fuente a lenguaje máquina.
 Cada instrucción de alto nivel, como digitalWrite() o delay(), se traduce en operaciones que modifican los registros del microcontrolador, controlando así el estado lógico del pin digital.
 
