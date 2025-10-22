@@ -12,8 +12,17 @@ function App() {
   return (
     <div className='bodyMain'>
       <Header />
+      <div className='main'>
+        <h2>Alumnos
+        </h2>
+        <h4>Banegas Mauro</h4>
+        <h4>Daniel Vildoza</h4>
+        <h4>Ezequiel Navarro</h4>
+        <h4>Aguero Esteban</h4>
+        <h4>Tomas Perez Poveda</h4>
+
+      </div>
    
- 
     
     </div>
   )

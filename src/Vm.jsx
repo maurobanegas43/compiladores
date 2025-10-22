@@ -114,6 +114,20 @@ function Vm() {
           </p>
         </section>
 
+
+        <section className="sectionInfoGeneral">
+          <h2>Imagenes</h2>
+          <img src="/public/Captura desde 2025-10-22 09-30-25.png"></img>
+          <img src="/public/Captura desde 2025-10-22 09-31-35.png"></img>
+          <img src="/public/Captura desde 2025-10-22 09-31-15.png"></img>
+          
+        </section>
+
+
+
+
+
+
       </section>
     </div>
   )
