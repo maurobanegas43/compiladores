@@ -117,9 +117,8 @@ function Vm() {
 
         <section className="sectionInfoGeneral">
           <h2>Imagenes</h2>
-          <img src="/public/Captura desde 2025-10-22 09-30-25.png"></img>
-          <img src="/public/Captura desde 2025-10-22 09-31-35.png"></img>
-          <img src="/public/Captura desde 2025-10-22 09-31-15.png"></img>
+          <img src='Captura desde 2025-10-22 09-31-35.png' alt="Captura 2" />
+          <img src='Captura desde 2025-10-22 09-31-15.png' alt="Captura 3" />
           
         </section>
 
