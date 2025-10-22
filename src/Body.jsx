@@ -161,9 +161,9 @@ function Body() {
                 protoboard, para que el montaje sea ordenado y reproducible.
              
                </h3>
-               <img src='/public/Captura desde 2025-10-22 07-23-09.png'></img>
+               <img src='/Captura desde 2025-10-22 07-23-09.png' alt="Asignación de pines" />
                <h2>Diagrama de conexiones</h2>
-               <img src='/public/Captura desde 2025-10-22 07-26-25.png'></img>
+               <img src='/Captura desde 2025-10-22 07-26-25.png' alt="Diagrama de conexiones" />
                </section>
 
 
@@ -246,7 +246,7 @@ estado)</h2>
 
       <section className="contenidoImagenes">
         <video controls playsInline style={{width: '100%', borderRadius: '8px', height:'30em'}}>
-          <source src="/WhatsApp%20Video%202025-10-18%20at%2021.17.20.mp4" type="video/mp4" />
+          <source src="/WhatsApp Video 2025-10-18 at 21.17.20.mp4" type="video/mp4" />
           
         </video>
       </section>
