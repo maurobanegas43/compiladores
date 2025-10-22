@@ -1,116 +1,128 @@
-#root {
+/* 🌌 Estilo profesional oscuro — tonos azul profundo y gris oscuro */
 
+:root {
+  --color-bg: #0d1117;           /* Fondo general */
+  --color-panel: #161b22;        /* Paneles / tarjetas */
+  --color-primary: #4ea1ff;      /* Azul principal para títulos */
+  --color-accent: #3b82f6;       /* Acento azul brillante */
+  --color-text: #e6edf3;         /* Texto principal claro */
+  --color-subtext: #9ba3b4;      /* Texto secundario */
+  --color-border: #30363d;       /* Líneas sutiles */
+  --radius: 12px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --font-main: "Inter", "Segoe UI", sans-serif;
+}
+
+/* Estructura general */
+body {
+  background-color: var(--color-bg);
+  font-family: var(--font-main);
+  color: var(--color-text);
+  margin: 0;
+  line-height: 1.6;
+}
+
+.contenido {
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2.5rem 1.5rem;
+}
+
+/* Títulos */
+h1 {
   text-align: center;
-  justify-content: center;
-  min-width: 1000px;
-
+  font-size: 2.4rem;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+  letter-spacing: 1px;
+  border-bottom: 3px solid var(--color-accent);
+  display: inline-block;
+  padding-bottom: 0.3rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h2 {
+  color: var(--color-primary);
+  font-size: 1.6rem;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+  border-left: 4px solid var(--color-accent);
+  padding-left: 0.6rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+h3 {
+  color: var(--color-subtext);
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+/* Párrafos */
+p {
+  background-color: var(--color-panel);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1rem 1.2rem;
+  box-shadow: var(--shadow);
+  line-height: 1.7;
+  color: var(--color-text);
+}
+
+/* Secciones */
+section {
+  background-color: var(--color-panel);
+  border-radius: var(--radius);
+  padding: 1.8rem 2rem;
+  margin-bottom: 1.8rem;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--color-border);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+/* Imágenes */
+section img {
+  display: block;
+  max-width: 100%;
+  margin: 1.5rem auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--color-border);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* Bloques de código */
+.textoCode {
+  background-color: #0f172a;
+  color: #e2e8f0;
+  font-family: "Source Code Pro", monospace;
+  padding: 1rem;
+  border-radius: var(--radius);
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow);
+  overflow-x: auto;
+  border: 1px solid #1e293b;
+}
+
+/* Efecto visual sutil en títulos al pasar el cursor */
+h2:hover, h1:hover {
+  color: var(--color-accent);
+  transition: color 0.3s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contenido {
+    padding: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  h1 {
+    font-size: 2rem;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  h2 {
+    font-size: 1.3rem;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-.bodyMain{
-display: flex;
-height: 100em;
-width: 100%;
-justify-content: center;
-
-
-}
-.mainHeader {
-  display: flex; 
-  height: 15em;
-  justify-content: center;
-  
-}
-.headerPractico{
-display: flex;
-flex-direction: row;
-height: 5em;
-margin-left: 20px;
-}
-
-.contenido{
-  display: flex;
-  flex-direction: row;
-  
-
-}
-.contenidoInfo{
-  display: flex;
-  flex-direction: column;
-  width: 80em;
-  height: auto;
-}
-.sectionInfo{
-  width: 300px;
-  height: 500px;
-  background-color: blue;
-  margin-left: 30px;
-  border-radius: 10%;
-
-}
-.sectionMontaje{
-  width: 1000px;
-  height: 500px;
-  background-color: blue;
-  margin-top: 40px;
-  margin-left: 30px;
-  margin-bottom: 40px;
-  border-radius: 2%;
-
-}
-.contenidoInfoMateriales{
-  display: flex;
-  justify-content: center;
-}
-.contenidoImagenes{
-  margin-top: 30px;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 50px;
-  
-}
-.contenidoImagenes img {
-  
-  margin: 20px 0 0 20px;
-}
-.codeTerminal{
-  background-color: #888;
-  color: black;
 }

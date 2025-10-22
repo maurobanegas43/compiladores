@@ -40,7 +40,6 @@ pinMode(ledVerde4,OUTPUT);
 }
 
 
-
 //Explicación: La función setup() se ejecuta una vez al inicio. Aquí se configuran todos
 //los pines asociados a los LEDs como salidas (OUTPUT), lo que permite controlar su
 //encendido y apagado mediante instrucciones digitales.
@@ -81,7 +80,6 @@ digitalWrite(ledAmarillo1,HIGH);
 delay(2000);
 digitalWrite(ledAmarillo1,LOW);
 }
-
 
 
 

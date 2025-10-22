@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './componentes/Header'
 import Menu from './Body'
+import Vm from './Vm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,8 @@ function App() {
   return (
     <div className='bodyMain'>
       <Header />
+   
+ 
     
     </div>
   )
