@@ -49,7 +49,7 @@ function Practico3() {
 
                     </p>
                     <h3>Componentes y Conexiones</h3>
-                    <img src="/public/Captura desde 2025-11-11 16-26-54.png"></img>
+                    <img src="/Captura desde 2025-11-11 16-26-54.png"></img>
                 </section>
 
 
@@ -61,7 +61,7 @@ pin es compatible con la función tone() en el Arduino Mega 2560.</strong>
                                                 
 
                     </p>
-                    <img src="/public/Captura desde 2025-11-11 16-28-11.png"></img>
+                    <img src="/Captura desde 2025-11-11 16-28-11.png"></img>
                 </section>
 
                 <section className='sectionInfoGeneral'>
@@ -81,8 +81,8 @@ fuente de Arduino (compilador_melodias.ino):
                         su valor de frecuencia en Hertz (Hz), que es la representación de bajo nivel de la
                         nota.
                     </p>
-                    <img src="/public/Captura desde 2025-11-11 16-31-10.png"></img>
-                    <img src="/public/Captura desde 2025-11-11 16-33-21.png"></img>
+                    <img src="/Captura desde 2025-11-11 16-31-10.png"></img>
+                    <img src="/Captura desde 2025-11-11 16-33-21.png"></img>
                 </section>
 
                 <section className="sectionInfoGeneral">
@@ -132,7 +132,7 @@ fuente de Arduino (compilador_melodias.ino):
                         
                     </p>
                     <h3>Interfaz Grafica</h3>
-                    <img src="/public/Captura desde 2025-11-11 16-38-49.png"></img>
+                    <img src="/Captura desde 2025-11-11 16-38-49.png"></img>
 
                 </section>
 
@@ -153,7 +153,7 @@ fuente de Arduino (compilador_melodias.ino):
                 </section>
                   <section>
                  <video controls playsInline style={{width: '100%', borderRadius: '8px', height:'30em'}}>
-          <source src="/public/WhatsApp Video 2025-11-11 at 16.59.25.mp4" type="video/mp4" />
+          <source src="/WhatsApp Video 2025-11-11 at 16.59.25.mp4" type="video/mp4" />
           
         </video>
       </section>

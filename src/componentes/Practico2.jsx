@@ -37,16 +37,16 @@ donde las responsabilidades se dividen:
                     
                     </p>
 
-                    <img src="/public/Captura desde 2025-11-11 13-33-38.png"></img>
+                    <img src="/Captura desde 2025-11-11 13-33-38.png"></img>
                     
-                    <img src="/public/Captura desde 2025-11-11 13-34-22.png"></img>
+                    <img src="/Captura desde 2025-11-11 13-34-22.png"></img>
                     <h3>El Traductor (Arduino – Back-end)</h3>
-                    <img src="/public/Captura desde 2025-11-11 13-35-33.png"></img>
+                    <img src="/Captura desde 2025-11-11 13-35-33.png"></img>
                     <h3>Componentes y Conexiones</h3>
-                    <img src="/public/Captura desde 2025-11-11 13-36-58.png"></img>
+                    <img src="/Captura desde 2025-11-11 13-36-58.png"></img>
                      <h3>Conexiones Físicas</h3>
-                    <img src="/public/Captura desde 2025-11-11 13-38-07.png"></img>
-                    <img src="/public/Captura desde 2025-11-11 13-38-38.png"></img>
+                    <img src="/Captura desde 2025-11-11 13-38-07.png"></img>
+                    <img src="/Captura desde 2025-11-11 13-38-38.png"></img>
 
 
                 </section>
@@ -114,7 +114,7 @@ donde las responsabilidades se dividen:
 
                 <section className="sectionInfoGeneral">
                     <h2>Interfaz grafica</h2>
-                    <img src="/public/Captura desde 2025-11-11 16-05-29.png"></img>
+                    <img src="/Captura desde 2025-11-11 16-05-29.png"></img>
 
 
  
@@ -147,7 +147,7 @@ donde las responsabilidades se dividen:
 
                   <section>
                  <video controls playsInline style={{width: '100%', borderRadius: '8px', height:'30em'}}>
-          <source src="/public/WhatsApp Video 2025-11-11 at 16.54.23.mp4" type="video/mp4" />
+          <source src="/WhatsApp Video 2025-11-11 at 16.54.23.mp4" type="video/mp4" />
           
         </video>
       </section>

@@ -189,7 +189,7 @@ function Practico() {
                     </p>
 
                     <h3>Interfaz Grafica</h3>
-                    <img src="/public/Captura desde 2025-11-11 11-18-00.png"></img>
+                    <img src="/Captura desde 2025-11-11 11-18-00.png"></img>
 
 
 
@@ -210,7 +210,7 @@ function Practico() {
                 </section>
                 <section>
                  <video controls playsInline style={{width: '100%', borderRadius: '8px', height:'30em'}}>
-          <source src="/public/WhatsApp Video 2025-11-11 at 16.52.15.mp4" type="video/mp4" />
+          <source src="/WhatsApp Video 2025-11-11 at 16.52.15.mp4" type="video/mp4" />
           
         </video>
       </section>
