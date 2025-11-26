@@ -150,6 +150,13 @@ Cada línea de código escrita en el IDE atraviesa todas las fases de un compila
           </p>
         </section>
 
+          <section>
+                 <video controls playsInline style={{width: '100%', borderRadius: '8px', height:'30em'}}>
+          <source src="/WhatsApp Video 2025-11-12 at 13.14.55 (2).mp4" type="video/mp4" />
+          
+        </video>
+      </section>
+
       </section>
     </div>
   )
