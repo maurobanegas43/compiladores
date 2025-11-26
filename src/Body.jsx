@@ -246,7 +246,7 @@ estado)</h2>
 
       <section className="contenidoImagenes">
         <video controls playsInline style={{width: '100%', borderRadius: '8px', height:'30em'}}>
-          <source src="public/tp1.mp4" type="video/mp4" />
+          <source src="/tp1.mp4" type="video/mp4" />
           
         </video>
       </section>
